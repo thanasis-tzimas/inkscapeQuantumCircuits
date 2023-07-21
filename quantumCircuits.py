@@ -15,7 +15,7 @@ class QuantumCircuits(inkBase.inkscapeMadeEasy):
         """__init__() -> None
         Initialization of the class.
 
-        In here, the argument parsing happens (plus some rudementary initialization).
+        In here, the argument parsing happens (plus some rudimentary initialization).
         """
         inkBase.inkscapeMadeEasy.__init__(self)
         pass
@@ -31,6 +31,6 @@ class QuantumCircuits(inkBase.inkscapeMadeEasy):
         pass
 
 if __name__ == "__main__":
-    # This extension can also run independantly (?)
+    # This extension can also run independently (?)
     circuit = QuantumCircuits()
     circuit.run()
